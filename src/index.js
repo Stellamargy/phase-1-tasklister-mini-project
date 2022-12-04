@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const toGetTask = () => {
     const task = newTaskdescribed.value;
     if (validInput(task)) {
-      creatingTask(task);
+      g(task);
     }
   };
 
